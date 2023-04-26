@@ -9,6 +9,7 @@ phases:
   pre_build:
     commands:
       - echo "Pre Build"
+      - npm install
   build:
     commands:
       - echo "Build"
