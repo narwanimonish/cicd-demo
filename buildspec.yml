@@ -17,6 +17,7 @@ phases:
       - echo "Completed Build project"
   post_build:
     commands:
+      - aws s3 cp ./build/* s3://monish-cicd-demo/
       - echo "Ending..."
 
 artifacts:
