@@ -18,3 +18,8 @@ phases:
   post_build:
     commands:
       - echo "Ending..."
+
+artifacts:
+  files:
+    - 'build/*'
+    - 'build/**/*'
