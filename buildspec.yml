@@ -18,7 +18,7 @@ phases:
   post_build:
     commands:
       - ls -al
-      - aws s3 sync build/ s3://monish-cicd-demo/
+      - aws s3 sync ./build s3://monish-cicd-demo/
       - echo "Ending..."
 
 artifacts:
