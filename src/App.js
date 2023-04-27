@@ -6,6 +6,7 @@ function App () {
     <div className="App">
       <header className="App-header">
         <h1>Welcome to AWS CodePipeline world!</h1>
+        <h2>It's Awesome!</h2>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
